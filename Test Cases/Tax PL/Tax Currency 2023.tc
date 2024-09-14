@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tax Currency 2023</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db4cf861-c5c1-4e39-a08c-3f08a4e34f0f</testCaseGuid>
+</TestCaseEntity>

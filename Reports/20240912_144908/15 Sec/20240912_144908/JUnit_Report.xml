@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="15 Sec" time="254.65" tests="4" failures="1" errors="0">
+   <testsuite name="15 Sec" tests="4" failures="1" errors="0" time="254.65" skipped="0" timestamp="12-09-2024T14:49:15" hostname="Elite66 - DEV66" id="Test Suites/15 Sec">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\Elite66\\git\\Space-Visual\\Reports\\20240912_144908\\15 Sec\\20240912_144908"/>
+         <property name="logFiles" value="C:\\Users\\Elite66\\git\\Space-Visual\\Reports\\20240912_144908\\15 Sec\\20240912_144908\\appium.log, C:\\Users\\Elite66\\git\\Space-Visual\\Reports\\20240912_144908\\15 Sec\\20240912_144908\\appium_error.log, C:\\Users\\Elite66\\git\\Space-Visual\\Reports\\20240912_144908\\15 Sec\\20240912_144908\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Elite66\\git\\Space-Visual\\Reports\\20240912_144908\\15 Sec\\20240912_144908\\1726133009235.png, C:\\Users\\Elite66\\git\\Space-Visual\\Reports\\20240912_144908\\15 Sec\\20240912_144908\\1726133009811.png"/>
+         <property name="hostName" value="Elite66 - DEV66"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.157.29"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Ledger Report/View Ledger Commodity 2024-25" time="101.61" classname="Test Cases/Ledger Report/View Ledger Commodity 2024-25" status="PASSED">
+         <system-out><![CDATA[12-09-2024T14:49:15 - [TEST_CASE][PASSED] - Test Cases/Ledger Report/View Ledger Commodity 2024-25: Test Cases/Ledger Report/View Ledger Commodity 2024-25
+
+12-09-2024T14:49:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Login"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login' successfully
+
+12-09-2024T14:49:16 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+12-09-2024T14:49:16 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-09-2024T14:49:16 - [TEST_STEP][PASSED] - startApplication(projectDir + "/SpaceApp/SpaceApp_1.0.34.55_LIVE.apk", true): Started application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:49:16 - [MESSAGE][INFO] - Starting application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:49:16 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+12-09-2024T14:49:21 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+12-09-2024T14:49:21 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Elite66\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+12-09-2024T14:49:21 - [MESSAGE][INFO] - appium outlog: C:\Users\Elite66\git\Space-Visual\Reports\20240912_144908\15 Sec\20240912_144908\appium.log
+
+12-09-2024T14:49:21 - [MESSAGE][INFO] - appium errlog: C:\Users\Elite66\git\Space-Visual\Reports\20240912_144908\15 Sec\20240912_144908\appium_error.log
+
+12-09-2024T14:49:22 - [MESSAGE][INFO] - Appium server started on port 56,818
+
+12-09-2024T14:49:35 - [MESSAGE][PASSED] - Started application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:49:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+12-09-2024T14:49:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-09-2024T14:49:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click button"), 0): Tapped on element 'Object Repository/LoginRepo/click button'
+
+12-09-2024T14:49:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click button'
+
+12-09-2024T14:49:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter id"), "m3903", 0): Text 'm3903' has been set to element 'Object Repository/LoginRepo/Enter id'
+
+12-09-2024T14:49:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:43 - [MESSAGE][PASSED] - Text 'm3903' has been set to element 'Object Repository/LoginRepo/Enter id'
+
+12-09-2024T14:49:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter pass"), "Nirav@789", 0): Text 'Nirav@789' has been set to element 'Object Repository/LoginRepo/Enter pass'
+
+12-09-2024T14:49:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:45 - [MESSAGE][PASSED] - Text 'Nirav@789' has been set to element 'Object Repository/LoginRepo/Enter pass'
+
+12-09-2024T14:49:45 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click login"), 0): Tapped on element 'Object Repository/LoginRepo/click login'
+
+12-09-2024T14:49:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click login'
+
+12-09-2024T14:49:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Enter Pin"), 0): Tapped on element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:49:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:49:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter Pin"), "1234", 0): Text '1234' has been set to element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:49:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:49 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:49:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login' successfully
+
+12-09-2024T14:49:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Report Click"), 0): Tapped on element 'Object Repository/LoginRepo/Report Click'
+
+12-09-2024T14:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Report Click'
+
+12-09-2024T14:49:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger Click"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/LoginRepo/Ledger Click'
+
+12-09-2024T14:49:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger Click'
+
+12-09-2024T14:49:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Segment Click"), 0): Tapped on element 'Object Repository/LoginRepo/Segment Click'
+
+12-09-2024T14:49:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Segment Click'
+
+12-09-2024T14:49:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Commodity Report"), 0): Tapped on element 'Object Repository/LoginRepo/Commodity Report'
+
+12-09-2024T14:49:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Commodity Report'
+
+12-09-2024T14:49:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/View Ledger"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/LoginRepo/View Ledger'
+
+12-09-2024T14:49:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:49:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/View Ledger'
+
+12-09-2024T14:49:55 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/LoginRepo/Wait-Element Identify"), 0): Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:49:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:01 - [MESSAGE][PASSED] - Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-7days"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/LoginRepo/Ledger-7days'
+
+12-09-2024T14:50:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-7days'
+
+12-09-2024T14:50:02 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/LoginRepo/Wait-Element Identify"), 0): Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:07 - [MESSAGE][PASSED] - Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-15days"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-15days'
+
+12-09-2024T14:50:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-15days'
+
+12-09-2024T14:50:08 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/LoginRepo/Wait-Element Identify"), 0): Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:12 - [MESSAGE][PASSED] - Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-30days"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-30days'
+
+12-09-2024T14:50:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-30days'
+
+12-09-2024T14:50:13 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/LoginRepo/Wait-Element Identify"), 0): Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:18 - [MESSAGE][PASSED] - Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:18 - [TEST_STEP][PASSED] - delay(30, STOP_ON_FAILURE): Delayed 30 second(s)
+
+12-09-2024T14:50:48 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+12-09-2024T14:50:48 - [TEST_STEP][PASSED] - com.katalon.mobiledevice.staticswipe.scroller(): com.katalon.mobiledevice.staticswipe.scroller is PASSED
+
+12-09-2024T14:50:50 - [MESSAGE][PASSED] - com.katalon.mobiledevice.staticswipe.scroller is PASSED
+
+12-09-2024T14:50:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click custom"), 0): Tapped on element 'Object Repository/LoginRepo/click custom'
+
+12-09-2024T14:50:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click custom'
+
+12-09-2024T14:50:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-save-custom"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-save-custom'
+
+12-09-2024T14:50:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-save-custom'
+
+12-09-2024T14:50:51 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/LoginRepo/Wait-Element Identify"), 0): Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:57 - [MESSAGE][PASSED] - Text of element 'Object Repository/LoginRepo/Wait-Element Identify' is: ''
+
+12-09-2024T14:50:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-back to reports"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-back to reports'
+
+12-09-2024T14:50:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:50:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-back to reports']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Holding/Holding 2023-24" time="39.781" classname="Test Cases/My Holding/Holding 2023-24" status="PASSED">
+         <system-out><![CDATA[12-09-2024T14:50:57 - [TEST_CASE][PASSED] - Test Cases/My Holding/Holding 2023-24: Test Cases/My Holding/Holding 2023-24
+
+12-09-2024T14:50:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Login"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login' successfully
+
+12-09-2024T14:50:57 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+12-09-2024T14:50:57 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-09-2024T14:50:57 - [TEST_STEP][PASSED] - startApplication(projectDir + "/SpaceApp/SpaceApp_1.0.34.55_LIVE.apk", true): Started application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:50:57 - [MESSAGE][INFO] - Starting application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:51:11 - [MESSAGE][PASSED] - Started application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:51:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+12-09-2024T14:51:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-09-2024T14:51:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click button"), 0): Tapped on element 'Object Repository/LoginRepo/click button'
+
+12-09-2024T14:51:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click button'
+
+12-09-2024T14:51:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter id"), "m3903", 0): Text 'm3903' has been set to element 'Object Repository/LoginRepo/Enter id'
+
+12-09-2024T14:51:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:19 - [MESSAGE][PASSED] - Text 'm3903' has been set to element 'Object Repository/LoginRepo/Enter id'
+
+12-09-2024T14:51:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter pass"), "Nirav@789", 0): Text 'Nirav@789' has been set to element 'Object Repository/LoginRepo/Enter pass'
+
+12-09-2024T14:51:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:20 - [MESSAGE][PASSED] - Text 'Nirav@789' has been set to element 'Object Repository/LoginRepo/Enter pass'
+
+12-09-2024T14:51:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click login"), 0): Tapped on element 'Object Repository/LoginRepo/click login'
+
+12-09-2024T14:51:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click login'
+
+12-09-2024T14:51:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Enter Pin"), 0): Tapped on element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:51:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:51:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter Pin"), "1234", 0): Text '1234' has been set to element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:51:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:25 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:51:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login' successfully
+
+12-09-2024T14:51:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Report Click"), 0): Tapped on element 'Object Repository/LoginRepo/Report Click'
+
+12-09-2024T14:51:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Report Click'
+
+12-09-2024T14:51:27 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Holding Click"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/LoginRepo/Holding Click'
+
+12-09-2024T14:51:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Holding Click'
+
+12-09-2024T14:51:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-2024-2025"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-2024-2025'
+
+12-09-2024T14:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-2024-2025'
+
+12-09-2024T14:51:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-2023-2024"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-2023-2024'
+
+12-09-2024T14:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-2023-2024'
+
+12-09-2024T14:51:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-Share"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-Share'
+
+12-09-2024T14:51:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-Share'
+
+12-09-2024T14:51:31 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/LoginRepo/Holding-Share-Verify"), 0): Text of element 'Object Repository/LoginRepo/Holding-Share-Verify' is: 'Report_My_Holding_M3903_12092024145133.pdf'
+
+12-09-2024T14:51:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:36 - [MESSAGE][PASSED] - Text of element 'Object Repository/LoginRepo/Holding-Share-Verify' is: 'Report_My_Holding_M3903_12092024145133.pdf'
+
+12-09-2024T14:51:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-Share-Back"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-Share-Back'
+
+12-09-2024T14:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-Share-Back']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tax PL/Tax Equity 2023" time="54.044" classname="Test Cases/Tax PL/Tax Equity 2023" status="PASSED">
+         <system-out><![CDATA[12-09-2024T14:51:37 - [TEST_CASE][PASSED] - Test Cases/Tax PL/Tax Equity 2023: Test Cases/Tax PL/Tax Equity 2023
+
+12-09-2024T14:51:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Login"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login' successfully
+
+12-09-2024T14:51:37 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+12-09-2024T14:51:37 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-09-2024T14:51:37 - [TEST_STEP][PASSED] - startApplication(projectDir + "/SpaceApp/SpaceApp_1.0.34.55_LIVE.apk", true): Started application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:51:37 - [MESSAGE][INFO] - Starting application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:51:50 - [MESSAGE][PASSED] - Started application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:51:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+12-09-2024T14:51:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-09-2024T14:51:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click button"), 0): Tapped on element 'Object Repository/LoginRepo/click button'
+
+12-09-2024T14:51:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click button'
+
+12-09-2024T14:51:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter id"), "m3903", 0): Text 'm3903' has been set to element 'Object Repository/LoginRepo/Enter id'
+
+12-09-2024T14:51:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:57 - [MESSAGE][PASSED] - Text 'm3903' has been set to element 'Object Repository/LoginRepo/Enter id'
+
+12-09-2024T14:51:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter pass"), "Nirav@789", 0): Text 'Nirav@789' has been set to element 'Object Repository/LoginRepo/Enter pass'
+
+12-09-2024T14:51:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:51:59 - [MESSAGE][PASSED] - Text 'Nirav@789' has been set to element 'Object Repository/LoginRepo/Enter pass'
+
+12-09-2024T14:51:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click login"), 0): Tapped on element 'Object Repository/LoginRepo/click login'
+
+12-09-2024T14:51:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click login'
+
+12-09-2024T14:52:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Enter Pin"), 0): Tapped on element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:52:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:52:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter Pin"), "1234", 0): Text '1234' has been set to element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:52:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:03 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:52:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login' successfully
+
+12-09-2024T14:52:03 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Report Click"), 0): Tapped on element 'Object Repository/LoginRepo/Report Click'
+
+12-09-2024T14:52:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Report Click'
+
+12-09-2024T14:52:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Tax Click"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/LoginRepo/Tax Click'
+
+12-09-2024T14:52:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Tax Click'
+
+12-09-2024T14:52:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-2024-2025"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/LoginRepo/Ledger-2024-2025'
+
+12-09-2024T14:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-2024-2025'
+
+12-09-2024T14:52:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-2023-2024"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/LoginRepo/Ledger-2023-2024'
+
+12-09-2024T14:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-2023-2024'
+
+12-09-2024T14:52:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-Share"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-Share'
+
+12-09-2024T14:52:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-Share'
+
+12-09-2024T14:52:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Tax Share Verify"), 0): Tapped on element 'Object Repository/LoginRepo/Tax Share Verify'
+
+12-09-2024T14:52:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Tax Share Verify'
+
+12-09-2024T14:52:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-Share-Back"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-Share-Back'
+
+12-09-2024T14:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-Share-Back'
+
+12-09-2024T14:52:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-Mail-Send"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-Mail-Send'
+
+12-09-2024T14:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-Mail-Send'
+
+12-09-2024T14:52:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-ToastMsg"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-ToastMsg'
+
+12-09-2024T14:52:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-ToastMsg']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Tax PL/Tax Equity 2024" time="59.041" classname="Test Cases/Tax PL/Tax Equity 2024" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Tax PL/Tax Equity 2024 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg'&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)&#xa;	at Tax Equity 2024.run(Tax Equity 2024:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1726132748860.run(TempTestSuite1726132748860.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/LoginRepo/Ledger-ToastMsg not found&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[12-09-2024T14:52:31 - [TEST_CASE][FAILED] - Test Cases/Tax PL/Tax Equity 2024: Test Cases/Tax PL/Tax Equity 2024 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Tax Equity 2024.run(Tax Equity 2024:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726132748860.run(TempTestSuite1726132748860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/LoginRepo/Ledger-ToastMsg not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+
+
+12-09-2024T14:52:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Login/Login"), null, STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login' successfully
+
+12-09-2024T14:52:31 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+12-09-2024T14:52:31 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+12-09-2024T14:52:31 - [TEST_STEP][PASSED] - startApplication(projectDir + "/SpaceApp/SpaceApp_1.0.34.55_LIVE.apk", true): Started application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:52:31 - [MESSAGE][INFO] - Starting application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:52:42 - [MESSAGE][PASSED] - Started application: 'C:\Users\Elite66\git\Space-Visual\SpaceApp\SpaceApp_1.0.34.55_LIVE.apk'
+
+12-09-2024T14:52:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+12-09-2024T14:52:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+12-09-2024T14:52:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click button"), 0): Tapped on element 'Object Repository/LoginRepo/click button'
+
+12-09-2024T14:52:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click button'
+
+12-09-2024T14:52:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter id"), "m3903", 0): Text 'm3903' has been set to element 'Object Repository/LoginRepo/Enter id'
+
+12-09-2024T14:52:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:50 - [MESSAGE][PASSED] - Text 'm3903' has been set to element 'Object Repository/LoginRepo/Enter id'
+
+12-09-2024T14:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter pass"), "Nirav@789", 0): Text 'Nirav@789' has been set to element 'Object Repository/LoginRepo/Enter pass'
+
+12-09-2024T14:52:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:52 - [MESSAGE][PASSED] - Text 'Nirav@789' has been set to element 'Object Repository/LoginRepo/Enter pass'
+
+12-09-2024T14:52:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/click login"), 0): Tapped on element 'Object Repository/LoginRepo/click login'
+
+12-09-2024T14:52:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/click login'
+
+12-09-2024T14:52:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Enter Pin"), 0): Tapped on element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:52:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:52:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginRepo/Enter Pin"), "1234", 0): Text '1234' has been set to element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:52:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:56 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/LoginRepo/Enter Pin'
+
+12-09-2024T14:52:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login' successfully
+
+12-09-2024T14:52:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Report Click"), 0): Tapped on element 'Object Repository/LoginRepo/Report Click'
+
+12-09-2024T14:52:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Report Click'
+
+12-09-2024T14:52:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Tax Click"), 0, CONTINUE_ON_FAILURE): Tapped on element 'Object Repository/LoginRepo/Tax Click'
+
+12-09-2024T14:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:52:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Tax Click'
+
+12-09-2024T14:52:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-Share"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-Share'
+
+12-09-2024T14:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:53:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-Share'
+
+12-09-2024T14:53:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Tax Share Verify"), 0): Tapped on element 'Object Repository/LoginRepo/Tax Share Verify'
+
+12-09-2024T14:53:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:53:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Tax Share Verify'
+
+12-09-2024T14:53:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-Share-Back"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-Share-Back'
+
+12-09-2024T14:53:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:53:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-Share-Back'
+
+12-09-2024T14:53:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-Mail-Send"), 0): Tapped on element 'Object Repository/LoginRepo/Ledger-Mail-Send'
+
+12-09-2024T14:53:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:53:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/LoginRepo/Ledger-Mail-Send'
+
+12-09-2024T14:53:14 - [TEST_STEP][FAILED] - tap(findTestObject("Object Repository/LoginRepo/Ledger-ToastMsg"), 0): Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg' (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Tax Equity 2024.run(Tax Equity 2024:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726132748860.run(TempTestSuite1726132748860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/LoginRepo/Ledger-ToastMsg not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+)
+
+12-09-2024T14:53:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+12-09-2024T14:53:29 - [MESSAGE][FAILED] - Object Object Repository/LoginRepo/Ledger-ToastMsg not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/LoginRepo/Ledger-ToastMsg not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Tax Equity 2024.run(Tax Equity 2024:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726132748860.run(TempTestSuite1726132748860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Elite66\\git\\Space-Visual\\Reports\\20240912_144908\\15 Sec\\20240912_144908\\1726133009235.png]]
+
+12-09-2024T14:53:30 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg' (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Tax Equity 2024.run(Tax Equity 2024:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726132748860.run(TempTestSuite1726132748860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/LoginRepo/Ledger-ToastMsg not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\Elite66\\git\\Space-Visual\\Reports\\20240912_144908\\15 Sec\\20240912_144908\\1726133009811.png]]]]></system-out>
+         <system-err><![CDATA[12-09-2024T14:52:31 - [TEST_CASE][FAILED] - Test Cases/Tax PL/Tax Equity 2024: Test Cases/Tax PL/Tax Equity 2024 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Tax Equity 2024.run(Tax Equity 2024:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726132748860.run(TempTestSuite1726132748860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/LoginRepo/Ledger-ToastMsg not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-09-2024T14:49:15 - [TEST_SUITE][FAILED] - 15 Sec: Test Cases/Tax PL/Tax Equity 2024 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Tax Equity 2024.run(Tax Equity 2024:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726132748860.run(TempTestSuite1726132748860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/LoginRepo/Ledger-ToastMsg not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[12-09-2024T14:49:15 - [TEST_SUITE][FAILED] - 15 Sec: Test Cases/Tax PL/Tax Equity 2024 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/LoginRepo/Ledger-ToastMsg'
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at Tax Equity 2024.run(Tax Equity 2024:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1726132748860.run(TempTestSuite1726132748860.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/LoginRepo/Ledger-ToastMsg not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:46)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

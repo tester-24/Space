@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "094BA8BDFDF7B69B0408BAA8581BF5EB",
+  "keywordClasses": [
+    {
+      "name": "mobile.SwipeUtils",
+      "keywordMethods": [
+        {
+          "name": "swipeAndClick",
+          "parameters": [
+            {
+              "name": "menuItemText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

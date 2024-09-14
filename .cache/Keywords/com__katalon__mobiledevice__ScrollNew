@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "EC02D717503DD0D1F8921EEB144CC74A",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.mobiledevice.ScrollNew",
+      "keywordMethods": [
+        {
+          "name": "scroll",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

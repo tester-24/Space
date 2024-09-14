@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "BFCD9FCD980ED5EE58B18BB06C8CE13A",
+  "keywordClasses": [
+    {
+      "name": "mobile.ScrollNew",
+      "keywordMethods": [
+        {
+          "name": "scroll",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

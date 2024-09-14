@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "812E06710DB1569001A6FDD0C9483141",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.mobiledevice.staticswipe",
+      "keywordMethods": [
+        {
+          "name": "scroller",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

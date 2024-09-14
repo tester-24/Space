@@ -1,0 +1,291 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+5 Sec,,,,12-09-2024 15:28:49,12-09-2024 15:48:26,19m - 37.151s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Commodity 2024-25,,,,12-09-2024 15:28:49,12-09-2024 15:29:38,49.241s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:28:49,12-09-2024 15:29:22,32.733s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:29:22,12-09-2024 15:29:23,1.824s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:29:23,12-09-2024 15:29:25,1.729s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:29:25,12-09-2024 15:29:25,0.112s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Commodity Report""), 0)",,,,12-09-2024 15:29:25,12-09-2024 15:29:27,1.668s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:29:27,12-09-2024 15:29:28,0.616s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:29:28,12-09-2024 15:29:31,3.755s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-7days""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:29:31,12-09-2024 15:29:32,0.594s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:29:32,12-09-2024 15:29:38,5.971s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Currency 2024-25,,,,12-09-2024 15:29:38,12-09-2024 15:30:23,45.153s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:29:38,12-09-2024 15:30:07,28.629s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:30:07,12-09-2024 15:30:08,1.027s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:30:08,12-09-2024 15:30:10,2.088s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:30:10,12-09-2024 15:30:10,0.126s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Currency Report""), 0)",,,,12-09-2024 15:30:10,12-09-2024 15:30:11,1.649s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:30:11,12-09-2024 15:30:12,0.622s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:30:12,12-09-2024 15:30:17,4.529s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-7days""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:30:17,12-09-2024 15:30:17,0.603s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:30:17,12-09-2024 15:30:23,5.810s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Equity 2024-2025,,,,12-09-2024 15:30:23,12-09-2024 15:31:13,49.816s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:30:23,12-09-2024 15:30:50,26.850s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:30:50,12-09-2024 15:30:52,1.678s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:30:52,12-09-2024 15:30:53,1.238s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:30:53,12-09-2024 15:30:53,0.126s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Equity Report""), 0)",,,,12-09-2024 15:30:53,12-09-2024 15:30:55,1.662s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:30:55,12-09-2024 15:30:55,0.622s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:30:55,12-09-2024 15:31:01,5.636s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-7days""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:31:01,12-09-2024 15:31:02,0.594s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:31:02,12-09-2024 15:31:06,4.882s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-15days""), 0)",,,,12-09-2024 15:31:06,12-09-2024 15:31:07,0.602s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:31:07,12-09-2024 15:31:13,5.861s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Future 2024-25,,,,12-09-2024 15:31:13,12-09-2024 15:31:48,35.632s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:31:13,12-09-2024 15:31:37,24.520s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:31:37,12-09-2024 15:31:39,1.522s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:31:39,12-09-2024 15:31:40,1.238s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:31:40,12-09-2024 15:31:40,0.126s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Future Report""), 0)",,,,12-09-2024 15:31:40,12-09-2024 15:31:42,1.672s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:31:42,12-09-2024 15:31:43,0.633s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:31:43,12-09-2024 15:31:48,5.861s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Report 2024-25,,,,12-09-2024 15:31:48,12-09-2024 15:32:23,34.995s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:31:49,12-09-2024 15:32:14,25.173s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:32:14,12-09-2024 15:32:15,1.542s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:32:15,12-09-2024 15:32:17,1.870s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:32:17,12-09-2024 15:32:18,0.627s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:32:18,12-09-2024 15:32:23,5.728s,FAILED
+,,,,,,,
+Test Cases/Trade log/View Trade 2024-25,,,,12-09-2024 15:32:23,12-09-2024 15:32:57,33.898s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:32:24,12-09-2024 15:32:48,24.441s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:32:48,12-09-2024 15:32:50,1.541s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Trade log Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:32:50,12-09-2024 15:32:51,1.340s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:32:51,12-09-2024 15:32:52,0.646s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 0)",,,,12-09-2024 15:32:52,12-09-2024 15:32:57,5.860s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/Mail Ledger Report 2023-24,,,,12-09-2024 15:32:57,12-09-2024 15:33:29,31.640s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:32:57,12-09-2024 15:33:22,24.301s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:33:22,12-09-2024 15:33:24,2.025s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:33:24,12-09-2024 15:33:25,1.220s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2024-2025""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:33:25,12-09-2024 15:33:25,0.155s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2023-2024""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:33:25,12-09-2024 15:33:27,1.688s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:33:27,12-09-2024 15:33:27,0.634s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 1000)",,,,12-09-2024 15:33:27,12-09-2024 15:33:29,1.575s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Share Ledger Report 2023-24,,,,12-09-2024 15:33:29,12-09-2024 15:33:58,29.342s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:33:29,12-09-2024 15:33:53,23.475s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:33:53,12-09-2024 15:33:58,5.828s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/Mail Ledger Report 2024-25,,,,12-09-2024 15:33:58,12-09-2024 15:34:32,34.055s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:33:58,12-09-2024 15:34:24,26.041s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:34:24,12-09-2024 15:34:26,2.023s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:34:26,12-09-2024 15:34:28,1.742s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:34:28,12-09-2024 15:34:29,0.652s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 0)",,,,12-09-2024 15:34:29,12-09-2024 15:34:32,3.552s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Share Ledger Report 2024-25,,,,12-09-2024 15:34:32,12-09-2024 15:35:08,35.435s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:34:32,12-09-2024 15:34:59,26.875s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:34:59,12-09-2024 15:35:02,2.413s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:35:02,12-09-2024 15:35:03,1.272s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:35:03,12-09-2024 15:35:04,0.674s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Verify""), 0)",,,,12-09-2024 15:35:04,12-09-2024 15:35:07,3.195s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Back""), 0)",,,,12-09-2024 15:35:07,12-09-2024 15:35:08,0.971s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Mail Ledger Equity 24,,,,12-09-2024 15:35:08,12-09-2024 15:35:43,34.695s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:35:08,12-09-2024 15:35:34,26.481s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:35:34,12-09-2024 15:35:36,1.999s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:35:36,12-09-2024 15:35:38,1.588s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:35:38,12-09-2024 15:35:38,0.137s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Equity Report""), 0)",,,,12-09-2024 15:35:38,12-09-2024 15:35:40,1.685s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:35:40,12-09-2024 15:35:40,0.658s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 0)",,,,12-09-2024 15:35:40,12-09-2024 15:35:43,2.107s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Share Ledger Equity 24,,,,12-09-2024 15:35:43,12-09-2024 15:36:19,36.201s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:35:43,12-09-2024 15:36:09,26.706s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:36:09,12-09-2024 15:36:11,1.547s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:36:11,12-09-2024 15:36:12,1.389s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:36:12,12-09-2024 15:36:12,0.195s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Equity Report""), 0)",,,,12-09-2024 15:36:12,12-09-2024 15:36:14,1.682s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:36:14,12-09-2024 15:36:15,0.653s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Verify""), 0)",,,,12-09-2024 15:36:15,12-09-2024 15:36:18,2.997s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Back""), 0)",,,,12-09-2024 15:36:18,12-09-2024 15:36:19,0.995s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Equity 2024-2025,,,,12-09-2024 15:36:19,12-09-2024 15:36:55,36.259s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:36:19,12-09-2024 15:36:44,24.927s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:36:44,12-09-2024 15:36:45,1.617s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:36:45,12-09-2024 15:36:47,1.382s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:36:47,12-09-2024 15:36:48,0.924s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Equity Report""), 0)",,,,12-09-2024 15:36:48,12-09-2024 15:36:49,0.969s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:36:49,12-09-2024 15:36:49,0.659s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:36:49,12-09-2024 15:36:55,5.768s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/Mail Ledger Future 2023,,,,12-09-2024 15:36:55,12-09-2024 15:37:33,37.622s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:36:55,12-09-2024 15:37:23,27.574s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:37:23,12-09-2024 15:37:24,1.547s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:37:24,12-09-2024 15:37:26,1.502s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:37:26,12-09-2024 15:37:26,0.164s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Future Report""), 0)",,,,12-09-2024 15:37:26,12-09-2024 15:37:28,1.824s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2024-2025""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:37:28,12-09-2024 15:37:28,0.155s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2023-2024""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:37:28,12-09-2024 15:37:30,1.715s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:37:30,12-09-2024 15:37:30,0.674s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 0)",,,,12-09-2024 15:37:30,12-09-2024 15:37:33,2.426s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Mail Ledger Future 2024,,,,12-09-2024 15:37:33,12-09-2024 15:38:06,33.718s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:37:33,12-09-2024 15:37:59,25.955s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:37:59,12-09-2024 15:38:01,2.221s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:38:01,12-09-2024 15:38:02,0.658s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:38:02,12-09-2024 15:38:02,0.174s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Future Report""), 0)",,,,12-09-2024 15:38:02,12-09-2024 15:38:03,1.704s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:38:03,12-09-2024 15:38:04,0.178s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 0)",,,,12-09-2024 15:38:04,12-09-2024 15:38:06,2.789s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Share Ledger Future 2023,,,,12-09-2024 15:38:06,12-09-2024 15:38:42,35.536s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:38:06,12-09-2024 15:38:32,25.800s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:38:32,12-09-2024 15:38:34,1.647s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:38:34,12-09-2024 15:38:35,1.515s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:38:35,12-09-2024 15:38:36,0.200s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Future Report""), 0)",,,,12-09-2024 15:38:36,12-09-2024 15:38:37,1.672s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:38:37,12-09-2024 15:38:38,0.711s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Verify""), 0)",,,,12-09-2024 15:38:38,12-09-2024 15:38:41,2.901s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Back""), 0)",,,,12-09-2024 15:38:41,12-09-2024 15:38:42,1.055s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Share Ledger Future 2024,,,,12-09-2024 15:38:42,12-09-2024 15:39:22,39.904s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:38:42,12-09-2024 15:39:10,28.172s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:39:10,12-09-2024 15:39:12,1.622s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:39:12,12-09-2024 15:39:13,1.677s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:39:13,12-09-2024 15:39:14,0.217s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Future Report""), 0)",,,,12-09-2024 15:39:14,12-09-2024 15:39:15,1.702s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2024-2025""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:39:15,12-09-2024 15:39:16,0.198s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2023-2024""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:39:16,12-09-2024 15:39:17,1.735s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:39:17,12-09-2024 15:39:18,0.702s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Verify""), 0)",,,,12-09-2024 15:39:18,12-09-2024 15:39:21,2.656s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Back""), 0)",,,,12-09-2024 15:39:21,12-09-2024 15:39:22,1.183s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Future 2024-25,,,,12-09-2024 15:39:22,12-09-2024 15:40:12,49.806s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:39:22,12-09-2024 15:39:50,28.003s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:39:50,12-09-2024 15:39:52,2.277s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:39:52,12-09-2024 15:39:53,1.347s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:39:53,12-09-2024 15:39:54,0.220s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Future Report""), 0)",,,,12-09-2024 15:39:54,12-09-2024 15:39:55,1.718s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:39:55,12-09-2024 15:39:56,0.690s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:39:56,12-09-2024 15:40:01,4.874s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-7days""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:40:01,12-09-2024 15:40:02,0.668s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:40:02,12-09-2024 15:40:05,3.566s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-15days""), 0)",,,,12-09-2024 15:40:05,12-09-2024 15:40:06,0.657s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:40:06,12-09-2024 15:40:12,5.775s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/Mail Ledger Currency 2024,,,,12-09-2024 15:40:12,12-09-2024 15:40:48,36.562s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:40:12,12-09-2024 15:40:40,27.962s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:40:40,12-09-2024 15:40:41,1.697s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:40:41,12-09-2024 15:40:44,2.808s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:40:44,12-09-2024 15:40:44,0.174s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Currency Report""), 0)",,,,12-09-2024 15:40:44,12-09-2024 15:40:46,1.705s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:40:46,12-09-2024 15:40:47,0.703s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 0)",,,,12-09-2024 15:40:47,12-09-2024 15:40:48,1.470s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Share Ledger Currency 2024,,,,12-09-2024 15:40:48,12-09-2024 15:41:28,39.419s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:40:48,12-09-2024 15:41:16,27.783s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:41:16,12-09-2024 15:41:18,1.689s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:41:18,12-09-2024 15:41:19,1.465s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:41:19,12-09-2024 15:41:19,0.196s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Currency Report""), 0)",,,,12-09-2024 15:41:19,12-09-2024 15:41:21,1.696s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:41:21,12-09-2024 15:41:22,0.704s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Verify""), 0)",,,,12-09-2024 15:41:22,12-09-2024 15:41:28,5.848s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Currency 2024-25,,,,12-09-2024 15:41:28,12-09-2024 15:42:08,40.695s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:41:28,12-09-2024 15:41:57,28.885s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:41:57,12-09-2024 15:41:58,1.636s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:41:58,12-09-2024 15:42:00,1.475s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:42:00,12-09-2024 15:42:00,0.193s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Currency Report""), 0)",,,,12-09-2024 15:42:00,12-09-2024 15:42:02,1.881s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:42:02,12-09-2024 15:42:02,0.704s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:42:02,12-09-2024 15:42:08,5.895s,FAILED
+,,,,,,,
+Test Cases/Ledger Report/Mail Ledger Commodity 2024,,,,12-09-2024 15:42:08,12-09-2024 15:42:46,37.981s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:42:08,12-09-2024 15:42:37,28.907s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:42:37,12-09-2024 15:42:39,1.840s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:42:39,12-09-2024 15:42:41,1.890s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:42:41,12-09-2024 15:42:41,0.271s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Commodity Report""), 0)",,,,12-09-2024 15:42:41,12-09-2024 15:42:43,1.737s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:42:43,12-09-2024 15:42:44,0.680s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 0)",,,,12-09-2024 15:42:44,12-09-2024 15:42:46,2.616s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/Share Ledger Commodity 2024,,,,12-09-2024 15:42:46,12-09-2024 15:43:26,39.729s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:42:46,12-09-2024 15:43:16,29.257s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:43:16,12-09-2024 15:43:17,1.206s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:43:17,12-09-2024 15:43:19,1.865s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:43:19,12-09-2024 15:43:19,0.223s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Commodity Report""), 0)",,,,12-09-2024 15:43:19,12-09-2024 15:43:21,1.860s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:43:21,12-09-2024 15:43:21,0.751s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Verify""), 0)",,,,12-09-2024 15:43:21,12-09-2024 15:43:25,3.498s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Back""), 0)",,,,12-09-2024 15:43:25,12-09-2024 15:43:26,1.032s,PASSED
+,,,,,,,
+Test Cases/Ledger Report/View Ledger Commodity 2024-25,,,,12-09-2024 15:43:26,12-09-2024 15:44:07,40.502s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:43:26,12-09-2024 15:43:55,28.816s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:43:55,12-09-2024 15:43:57,1.663s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:43:57,12-09-2024 15:43:58,1.373s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Segment Click""), 0)",,,,12-09-2024 15:43:58,12-09-2024 15:43:58,0.218s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Commodity Report""), 0)",,,,12-09-2024 15:43:58,12-09-2024 15:44:00,1.707s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/View Ledger""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:44:00,12-09-2024 15:44:01,0.913s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Wait-Element Identify""), 0)",,,,12-09-2024 15:44:01,12-09-2024 15:44:07,5.799s,FAILED
+,,,,,,,
+Test Cases/Global Report/Global Equity 2023-24,,,,12-09-2024 15:44:07,12-09-2024 15:44:49,42.549s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:44:07,12-09-2024 15:44:37,30.624s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:44:37,12-09-2024 15:44:38,1.250s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:44:38,12-09-2024 15:44:40,1.893s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2024-2025""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:44:40,12-09-2024 15:44:41,0.223s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2023-2024""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:44:41,12-09-2024 15:44:42,1.712s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:44:42,12-09-2024 15:44:43,0.708s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Global Share Verify""), 0)",,,,12-09-2024 15:44:43,12-09-2024 15:44:49,6.100s,FAILED
+,,,,,,,
+Test Cases/Global Report/Global Equity Datewise,,,,12-09-2024 15:44:49,12-09-2024 15:45:30,40.528s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:44:49,12-09-2024 15:45:18,28.925s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:45:18,12-09-2024 15:45:20,1.652s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:45:20,12-09-2024 15:45:21,1.456s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Category""), 0)",,,,12-09-2024 15:45:21,12-09-2024 15:45:21,0.255s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Datewise""), 0)",,,,12-09-2024 15:45:21,12-09-2024 15:45:23,1.682s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:45:23,12-09-2024 15:45:24,0.744s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Global Share Verify""), 0)",,,,12-09-2024 15:45:24,12-09-2024 15:45:30,5.774s,FAILED
+,,,,,,,
+Test Cases/Global Report/Global Derivative 2024-25,,,,12-09-2024 15:45:30,12-09-2024 15:46:12,42.068s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:45:30,12-09-2024 15:45:59,29.586s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:45:59,12-09-2024 15:46:01,2.173s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:46:01,12-09-2024 15:46:03,1.544s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Equity Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:46:03,12-09-2024 15:46:03,0.244s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Derivative Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:46:03,12-09-2024 15:46:05,1.695s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:46:05,12-09-2024 15:46:06,0.761s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Global Share Verify""), 0)",,,,12-09-2024 15:46:06,12-09-2024 15:46:12,6.022s,FAILED
+,,,,,,,
+Test Cases/Global Report/Global Derivative Datewise 2024,,,,12-09-2024 15:46:12,12-09-2024 15:46:54,42.671s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:46:12,12-09-2024 15:46:41,29.125s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:46:41,12-09-2024 15:46:43,1.652s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:46:43,12-09-2024 15:46:44,1.417s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Equity Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:46:44,12-09-2024 15:46:44,0.234s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Derivative Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:46:44,12-09-2024 15:46:46,1.698s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Category""), 0)",,,,12-09-2024 15:46:46,12-09-2024 15:46:46,0.245s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Datewise""), 0)",,,,12-09-2024 15:46:46,12-09-2024 15:46:48,1.698s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:46:48,12-09-2024 15:46:49,0.754s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Global Share Verify""), 0)",,,,12-09-2024 15:46:49,12-09-2024 15:46:54,5.799s,FAILED
+,,,,,,,
+Test Cases/Global Report/Global Derivative Datewise 2023,,,,12-09-2024 15:46:54,12-09-2024 15:47:39,44.780s,FAILED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:46:54,12-09-2024 15:47:23,28.823s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:47:23,12-09-2024 15:47:25,1.695s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:47:25,12-09-2024 15:47:27,1.994s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Equity Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:47:27,12-09-2024 15:47:27,0.228s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Derivative Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:47:27,12-09-2024 15:47:29,1.710s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Category""), 0)",,,,12-09-2024 15:47:29,12-09-2024 15:47:29,0.197s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Datewise""), 0)",,,,12-09-2024 15:47:29,12-09-2024 15:47:31,1.704s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2024-2025""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:47:31,12-09-2024 15:47:31,0.177s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2023-2024""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:47:31,12-09-2024 15:47:33,1.756s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:47:33,12-09-2024 15:47:33,0.732s,PASSED
+"getText(findTestObject(""Object Repository/LoginRepo/Global Share Verify""), 0)",,,,12-09-2024 15:47:33,12-09-2024 15:47:39,5.719s,FAILED
+,,,,,,,
+Test Cases/Tax PL/Tax Currency 2023,,,,12-09-2024 15:47:39,12-09-2024 15:48:26,46.560s,PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login""), null, STOP_ON_FAILURE)",,,,12-09-2024 15:47:39,12-09-2024 15:48:11,31.601s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Report Click""), 0)",,,,12-09-2024 15:48:11,12-09-2024 15:48:13,2.165s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Tax Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:48:13,12-09-2024 15:48:14,1.331s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Global Equity Click""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:48:14,12-09-2024 15:48:15,0.271s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Tax Currency Click""), 0)",,,,12-09-2024 15:48:15,12-09-2024 15:48:16,1.694s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2024-2025""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:48:16,12-09-2024 15:48:16,0.215s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-2023-2024""), 0, CONTINUE_ON_FAILURE)",,,,12-09-2024 15:48:16,12-09-2024 15:48:18,1.733s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share""), 0)",,,,12-09-2024 15:48:18,12-09-2024 15:48:19,0.729s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Tax Share Verify""), 0)",,,,12-09-2024 15:48:19,12-09-2024 15:48:23,3.691s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Share-Back""), 0)",,,,12-09-2024 15:48:23,12-09-2024 15:48:24,1.061s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-Mail-Send""), 0)",,,,12-09-2024 15:48:24,12-09-2024 15:48:24,0.693s,PASSED
+"tap(findTestObject(""Object Repository/LoginRepo/Ledger-ToastMsg""), 0)",,,,12-09-2024 15:48:24,12-09-2024 15:48:26,1.337s,PASSED

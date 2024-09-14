@@ -1,0 +1,42 @@
+{
+  "keywordFileContentHash": "7A99A103A976BBF53A418E75AEB733A6",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.mobiledevice.ScrollApp",
+      "keywordMethods": [
+        {
+          "name": "horizontalScroll",
+          "parameters": [
+            {
+              "name": "toGrid",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "toTraget",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

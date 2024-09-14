@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "ADCC87BE9C765A9ABD28B04F4373522D",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.mobiledevice.TradeDataVerify",
+      "keywordMethods": [
+        {
+          "name": "checkDataPresence",
+          "parameters": [
+            {
+              "name": "dataPresentObj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "noDataObj",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
